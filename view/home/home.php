@@ -1,26 +1,3 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-  <meta charset="UTF-8">
-  <title>Crêpe & Go - Vente de crêpes délicieuses</title>
-  <script src="https://kit.fontawesome.com/66bf2187ba.js" crossorigin="anonymous"></script>
-
-</head>
-
-<body>
-  <header>
-    <div class="logo">
-      <a href="#">Crêpe & Go</a>
-    </div>
-    <nav>
-      <ul>
-        <li><a href="#">Accueil</a></li>
-        <li><a href="#">Nos crêpes</a></li>
-        <li><a href="#">Commander</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
   <main>
     <section id="hero">
       <div class="hero-text">
@@ -67,6 +44,5 @@
         </div>
     </section>
 </main>
-</html>
 
 
