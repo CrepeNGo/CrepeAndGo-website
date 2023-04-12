@@ -13,7 +13,13 @@ require_once "model/LoginModel.php";
 
 switch($page) {
     case "home":
-        include "view/home/home.php";
+        if (is_null($_SESSION["username"])){
+            include "view/login/login.php";
+
+        }
+        else{
+            include "view/home/home.php";
+        }
         break;
     case "crepes":
         include "view/crepes/crepes.php";
@@ -23,15 +29,6 @@ switch($page) {
         break;
     case "map":
         include "view/map.php";
-        break;
-    case "commander":
-        if (is_null($_SESSION["username"])){
-            include "view/login/login.php";
-            
-        }
-        else{
-            header("Location: /404");
-        }
         break;
     case "login":
         include "view/login/login.php";
@@ -49,10 +46,9 @@ switch($page) {
             $register->register();
         }
         break;
-    case "deconnexion":
+    case "deconnection":
         session_destroy();
-        
-        
+        include "view/login/login.php";
     default:
         include "view/error/404.php";
         break;

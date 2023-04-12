@@ -9,7 +9,7 @@
             <li><a href="/commander">Commander</a></li>
             <li><a href="/contact">Contact</a></li>
             <li><a href="/login">Login</a></li>
-            <li><a href="/deconnexion">deconnexion</a></li>
+            <li><a href="/deconnection">deconnection</a></li>
 
         </ul>
     </nav>

@@ -1,0 +1,2 @@
+RewriteRule ^index?$ index.phpRewriteEngine on
+RewriteRule ([a-zA-Z0-9]+) $1.php

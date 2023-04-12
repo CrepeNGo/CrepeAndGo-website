@@ -15,7 +15,7 @@ class LoginController
         $mdp = filter_input(INPUT_POST, 'mdp',FILTER_SANITIZE_SPECIAL_CHARS);
         $this -> loginmodel -> login($username,$mdp);
         $form= $this -> loginmodel -> login($username,$mdp);
-        header('Location: /home');
+        header('Location : /home');
         return ["pseudo" => $form["pseudo"],
                 "mdp" => $form["mdp"]];
         
