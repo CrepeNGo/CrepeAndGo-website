@@ -1,3 +1,14 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Crêpe & Go - Vente de crêpes délicieuses</title>
+  <link rel="stylesheet" href="./style.css">
+  <script src="https://kit.fontawesome.com/66bf2187ba.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
   <main>
     <section id="hero">
       <div class="hero-text">
@@ -44,5 +55,6 @@
         </div>
     </section>
 </main>
+</html>
 
 
