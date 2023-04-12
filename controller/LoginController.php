@@ -15,9 +15,13 @@ class LoginController
         $mdp = filter_input(INPUT_POST, 'mdp',FILTER_SANITIZE_SPECIAL_CHARS);
         $this -> loginmodel -> login($username,$mdp);
         $form= $this -> loginmodel -> login($username,$mdp);
-         return ["pseudo" => $username];
+        if ($username==$form["pseudo"]){
+            var_dump($form);
 
+        }
+        return ["pseudo" => $username];
 
+        
 
     }
 
